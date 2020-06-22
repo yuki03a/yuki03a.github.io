@@ -6,27 +6,29 @@
     <link rel="SHORTCUT ICON" href="favicon.ico">
     <title>情報収集</title>
 </head>
-
 <body>
     <div class= "header">
         <div class= "logo">SMILE</div>
         <div class= "log-out">log out</div>
     </div>
     <div class= "top">
-        <ul>
-            <li class= "date">
-                <script>
-                    var today=new Date(); 
-                    var year = today.getFullYear();
-                    var month = today.getMonth()+1;
-                    var week = today.getDay();
-                    var day = today.getDate();
-                    var week_select= new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
-                    document.write(year+"/"+month+"/"+day+"/"+week_select[week]);
-                </script>
-            </li>
-            <li class= "home-info">家の温度: - 度/湿度　- %/ 照度 - %<span>(工事中)</span></li>
-        </ul>
+        <div class= "date">
+            <script>
+                var today=new Date(); 
+                var year = today.getFullYear();
+                var month = today.getMonth()+1;
+                var week = today.getDay();
+                var day = today.getDate();
+                var week_select= new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+                document.write(year+"/"+month+"/"+day+"/"+week_select[week]);
+            </script>
+        </div>
+        <div class= "home-info">家の温度: - 度/湿度　- %/ 照度 - %<span>(工事中)</span></div>
+        <div class= "weather">
+          <iframe align="center" type="text/html" frameborder="0" height="300"width="100%" src="http://forecast.io/embed/#lat=35.689487&lon=139.691706&name=Kanagawa&units=si">
+          </iframe>
+          </iframe>
+        </div>
     </div>
     <div class= "midle-wrapper-1">
         <div class= "To-do">
@@ -40,19 +42,12 @@
         </div>
     </div>
     <div class= "midle-wrapper-2">
-        <div class="news">
-            <p>日経新聞<span>(工事中)</span></p>
+        <div class= "nikkei">
+          <iframe align="center" type="text/html" frameborder="0"   height="900" width="100%" src="https://www.nikkei.com/">
+          </iframe>
         </div>
-        <div class="news">
-            <p>日本産業新聞<span>(工事中)</span></p>
-        </div>
-    </div>
-    <div class= "midle-wrapper-3">
-        <div class= "twitter">
-            <p>twitterトレンド<span>(工事中)</span></p>
-        </div>
-        <div class= "calendar">
-            <p>googlecalendar<span>(工事中)</span></p>
+        <div class="sangyou">
+          <iframe align="center" type="text/html" frameborder="0" height="900" width="100%" src="https://www.nikkei.com/theme/?dw=18083101">
         </div>
     </div>
     <div class= "midle-wrapper-4">
