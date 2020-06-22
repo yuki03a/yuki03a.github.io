@@ -12,23 +12,21 @@ body {
   float: left;
   color: yellow;
   border: 1px dashed white;
+  padding: 7px;
 }
 
 .log-out {
   float: right;
   border: 1px dashed white;
+  padding: 7px;
 }
 
 .top {
   background-image: url("coffee.jpg");
   background-size: cover;
-  height: 900px;
+  height: 800px;
   color:white;
   position: relative;
-}
-
-.top li {
-  list-style: none;
 }
 
 .date {
@@ -42,6 +40,13 @@ body {
   float: left;
 }
 
+.weather {
+  float: right;
+  height: 200px;
+  width: 937px;
+  border: 1px dashed white;
+}
+
 .midle-wrapper-1 {
   position: relative;
 }
@@ -50,10 +55,34 @@ body {
   width: 25%;
   height: 600px;
   border: 1px dashed black;
+  float: left;
 }
 
 .To-do-form {
-  width: 25%;
+  width: 465px;
   height: 600px;
   border: 1px dashed black;
+  float: left;
 }
+
+.spending-form {
+  float:right;
+  height: 600px;
+  border: 1px dashed black;
+  width: 50%;
+}
+
+.nikkei {
+  float: left;
+  width: 50%;
+  height: 600px;
+}
+
+.sangyou {
+  float: right;
+  width: 50%;
+  height: 600px;
+}
+
+
+
