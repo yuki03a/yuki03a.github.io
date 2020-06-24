@@ -1,87 +1,174 @@
 body {
   background-color: whitesmoke;
+  font-family: Book Antiqua;
 }
 
-.header {
-  background-color: gray;
+header {
+  background-color: cornflowerblue;
   width: 100%;
   height: 40px;
 }
 
 .logo {
   float: left;
-  color: yellow;
-  border: 1px dashed white;
-  padding: 7px;
+  width: auto;
+  height: 40px;
 }
 
 .log-out {
   float: right;
-  border: 1px dashed white;
   padding: 7px;
 }
 
 .top {
   background-image: url("./img/coffee.jpg");
   background-size: cover;
-  height: 800px;
+  height: 870px;
   color:white;
   position: relative;
 }
 
+.top h1 {
+  padding:50px 0 0 50px;
+  font-size: 1300%;
+  margin:0px;
+}
+
 .date {
   padding-right: 10px;
-  border: 1px dashed white;
   float: left;
 }
 
 .home-info {
-  border: 1px dashed white;
+  padding-right: 10px;
+  float: left;
+}
+
+.business-day {
+  padding-right: 10px;
   float: left;
 }
 
 .weather {
   float: right;
-  height: 200px;
-  width: 937px;
-  border: 1px dashed white;
+  width: 50%;
 }
 
 .midle-wrapper-1 {
-  position: relative;
+  width:100%;
+  height: 600px;
 }
 
 .To-do {
   width: 25%;
-  height: 600px;
+  height: 100%;
   border: 1px dashed black;
   float: left;
 }
 
+img {
+  opacity: 0.1;
+}
+
 .To-do-form {
-  width: 465px;
-  height: 600px;
+  width: 25%;
+  height: 100%;
   border: 1px dashed black;
   float: left;
 }
 
 .spending-form {
+  width: 49.5%;
   float:right;
-  height: 600px;
+  height: 100%;
   border: 1px dashed black;
-  width: 50%;
 }
 
 .nikkei {
   float: left;
   width: 50%;
-  height: 600px;
 }
 
 .sangyou {
   float: right;
   width: 50%;
+}
+
+.midle-wrapper-3 {
+  width:100%;
   height: 600px;
 }
 
+.Twitter {
+  float: left;
+  width: 50%;
+  height: 100%;
+  border: 1px dashed black;
+}
+
+.Calender {
+  float: right;
+  width: 49.6%;
+  height: 100%;
+  border: 1px dashed black;
+}
+
+.midle-wrapper-4 {
+  width:100%;
+  height: 600px;
+}
+
+.cost {
+  width: 50%;
+  height: 100%;
+  border: 1px dashed black;
+  float: left;
+}
+
+.Balance {
+  width: 24.5%;
+  height: 50%;
+  border: 1px dashed black;
+  float: left;
+}
+
+.Balance-form {
+  width: 25%;
+  height: 50%;
+  border: 1px dashed black;
+  float: right;
+}
+
+.household-account-book {
+  width:49.6%;
+  height: 50%;
+  border: 1px dashed black;
+  float: right;
+}
+
+.midle-wrapper-5 {
+  width:100%;
+  height: 600px;
+}
+
+.Paid {
+  width: 25%;
+  height: 50%;
+  border: 1px dashed black;
+  float: left;
+}
+
+.overtime {
+  width: 25%;
+  height: 50%;
+  border: 1px dashed black;
+  float: left;
+}
+
+.expected-salary {
+  width: 49.5%;
+  height: 50%;
+  border: 1px dashed black;
+  float: right;
+}
 
