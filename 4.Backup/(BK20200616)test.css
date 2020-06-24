@@ -1,0 +1,29 @@
+.example1 { 
+    color: azure;
+    background-image: url("coffee.jpg");
+    background-size: cover;
+}
+
+.checkbox {
+    display:block;
+  }
+
+.checkbox_backgroud {
+    background-color: black;
+    width: fit-content;
+ }
+
+.iframe-wrap {
+   position: relative;
+   width: 100%;
+   padding: calc(480 / 854 * 100%) 0 0;
+ }
+
+.iframe-wrap iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 50%;
+   height: 50%;
+ }
+
