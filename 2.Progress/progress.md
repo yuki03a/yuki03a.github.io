@@ -71,7 +71,7 @@
 ✅progate:Web開発パス完走🎉6月の目標達成！
 ✅progate:jQuery 初級編
 ✅progate:jQuery 中級編
-🔲vscode git連携設定
+✅vscode git連携設定
 
 #####6/26(金)
 🔲案件準備:AWSアソシエイト黒本復習
