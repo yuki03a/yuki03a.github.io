@@ -63,8 +63,6 @@
 ✅ポートフォリオ:WireFrame更新
 ✅progate:MySQLでデータベースを作成しよう
 
-####<span style="color: Blue; ">↓今日↓<span>
-
 #####6/25(木)
 ✅progate:Node.jsアプリケーションとMySQLを接続しよう！
 ✅progate:Webアプリ開発に挑戦してみよう
@@ -73,16 +71,17 @@
 ✅progate:jQuery 中級編
 ✅vscode git連携設定
 
+####<span style="color: Blue; ">↓今日↓<span>
+
 #####6/26(金)
 🔲案件準備:AWSアソシエイト黒本復習
-🔲案件準備:AWS oganization デザインパターン学習
-🔲progate:jQuery 道場コース中級編
+✅progate:jQuery 道場コース中級編
 🔲ポートフォリオ:進捗更新(動画撮影)
 
 #####6/27(土)
 🔲決算書準備
 🔲決算書(確定申告)について調査
-🔲案件準備:AWSアソシエイト黒本復習
+🔲案件準備:AWS oganization デザインパターン学習
 🔲progate:jQuery 上級編
 
 ###<span style="color: green; ">学習計画(6/28週)</span>
@@ -113,3 +112,15 @@
 
 #####7/4(土)
 🔲ポートフォリオ:家計簿テーブル作成
+
+
+###実装機能(6/26)
+- 日付の表示
+- 日経新聞の埋め込み
+- 日本産業新聞の埋め込み <span style="color: red; ">new!!
+- 天気(ブログパーツの表示)
+- To-do listの表示
+- 残営業日の表示
+- header表示 <span style="color: red; ">new!!
+- 各種要素の配置決め <span style="color: red; ">new!!
+  
